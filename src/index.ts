@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { CommandClient} from 'eris';
 import { Pool } from 'pg';
 import { loadCommands } from './handlers/commandHandler';

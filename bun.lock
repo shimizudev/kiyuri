@@ -12,6 +12,7 @@
       "devDependencies": {
         "@types/bun": "latest",
         "@types/pg": "^8.11.11",
+        "dotenv": "^16.4.7",
       },
       "peerDependencies": {
         "typescript": "^5",
@@ -32,6 +33,8 @@
     "ascii-table3": ["ascii-table3@0.9.0", "", { "dependencies": { "printable-characters": "^1.0.42" } }, "sha512-/JcvVCQRTVQHwLI8TCxSeOS9AcCV01MbCJC4plSP5ulygJH+D30lz85nvMcER5k+qoX2fJ1C/i13Zo1/eoMGTw=="],
 
     "bun-types": ["bun-types@1.2.4", "", { "dependencies": { "@types/node": "*", "@types/ws": "~8.5.10" } }, "sha512-nDPymR207ZZEoWD4AavvEaa/KZe/qlrbMSchqpQwovPZCKc7pwMoENjEtHgMKaAjJhy+x6vfqSBA1QU3bJgs0Q=="],
+
+    "dotenv": ["dotenv@16.4.7", "", {}, "sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ=="],
 
     "eris": ["eris@0.18.0", "", { "dependencies": { "ws": "^8.2.3" }, "optionalDependencies": { "opusscript": "^0.0.8", "tweetnacl": "^1.0.3" } }, "sha512-zv2hjAfs4SYjR/EHUwBGNoKClctbqki1jPMed4SiQ4KKfafV1MIBLqKodQSGDgT9qkSUI5+MQ4EQW/8MkbAPkg=="],
 
