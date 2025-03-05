@@ -38,7 +38,7 @@ export async function execute(message: Message, args: string[]) {
         return message.channel.createMessage("no cap you can't steal from bots bestie they're just as broke as me fr 💀");
     }
 
-    if (amount === "Infinity" || isNaN(getAmount) || getAmount <= 0) {
+    if (amount === "Infinity" || isNaN(getAmount)) {
         return message.channel.createMessage("bestie that ain't a real number fr fr 💀 try again");
     }
 
