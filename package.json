@@ -1,7 +1,7 @@
 {
   "name": "kiyuri",
   "module": "index.ts",
-  "type": "module",
+  "main": "dist/index.js",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
