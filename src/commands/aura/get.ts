@@ -42,11 +42,17 @@ export async function execute(message: Message, args: string[]) {
         return message.channel.createMessage("bestie that ain't a real number fr fr 💀 try again");
     }
 
-    // Get or create users in parallel
-    const [sourceUser, targetUser] = await Promise.all([
-        getUser(message.author.id) || createUser(message.author.id),
-        getUser(targetId) || createUser(targetId)
-    ]);
+    // Get or create users
+    let sourceUser = await getUser(message.author.id);
+    let targetUser = await getUser(targetId);
+
+    if (!sourceUser) {
+        sourceUser = await createUser(message.author.id);
+    }
+
+    if (!targetUser) {
+        targetUser = await createUser(targetId);
+    }
 
     const sourcePoints = sourceUser.is_infinite ? Infinity : Number(sourceUser.aurapoints);
     const targetPoints = targetUser.is_infinite ? Infinity : Number(targetUser.aurapoints);
