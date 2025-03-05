@@ -42,8 +42,8 @@ export async function execute(message: Message) {
     await updateAuraPoints(message.author.id, job.auraPoints.toString());
 
     // Set cooldown (30 minutes)
-    const cooldownEnd = new Date();
-    cooldownEnd.setMinutes(cooldownEnd.getMinutes() + 30);
+    const now = new Date();
+    const cooldownEnd = new Date(now.getTime() + (30 * 60 * 1000));
 
     await pool.query(
         'UPDATE users SET job_cooldown_ends = $1 WHERE discord_id = $2',
