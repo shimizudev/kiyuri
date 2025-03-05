@@ -1,0 +1,19 @@
+{
+  "name": "kiyuri",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ascii-table3": "^0.9.0",
+    "eris": "^0.18.0",
+    "eris-collectors": "^3.0.1",
+    "pg": "^8.13.3"
+  }
+}
