@@ -1,25 +1,41 @@
-# Kiyuri
-> An Aura, Pet Simulator, Dating Simulator bot.
+# Kiyuri 🤖
+> A feature-rich Discord bot combining Aura, Pet Simulator, and Dating Simulator systems.
 
-## 🎯 Roadmaps
+## 🎯 Project Roadmap
 
-### 🌟 Aura System (working)
-- [x] Add/remove aura points
-- [x] Work to get aura points 
-- [ ] Aura Collectables (Drip Essence)
-- [ ] Aura Battles
-- [ ] Aura Flex Level (grinding reason)
+### 🌟 Aura System (In Development)
+- [x] **Core Features**
+  - Add/remove aura points
+  - Work to earn aura points
+- [ ] **Upcoming Features** 
+  - Aura Collectibles (Drip Essence)
+  - Strategic Aura Battles
+  - Aura Flex Level System *(Progression & Rewards)*
 
-### 💝 Dating Simulator (working)
-- [ ] Marriage
-- [ ] Roleplay System
-- [ ] Love Letter/Complement System
-- [ ] Gift System
-- [ ] Family :3
+### 💝 Dating Simulator (In Development)
+- [ ] **Relationship Features**
+  - Marriage System
+  - Dynamic Roleplay System
+  - Love Letter & Compliment Exchange
+  - Gift-giving Mechanics
+  - Family Creation & Management
 
-### 🐾 Pet Simulator (coming soon)
-- [ ] Buy pets
-- [ ] Sell pets
-- [ ] Take pet on a walk
-- [ ] Pet jobs
-- [ ] Pet battles
+### 🐾 Pet Simulator (Coming Soon)
+- [ ] **Pet Economy**
+  - Pet Shop & Adoption
+  - Pet Marketplace
+- [ ] **Pet Activities**
+  - Interactive Pet Walks
+  - Pet Employment System
+  - Strategic Pet Battles
+
+---
+
+### 📋 Production Timeline
+The bot will be ready for production deployment once these core features are implemented:
+- Aura Collectibles System
+- Marriage System
+- Roleplay Mechanics
+- Pet Economy (Buy/Sell)
+
+*Additional features will be implemented gradually post-launch to ensure stability and user experience.*
